@@ -1,0 +1,69 @@
+/*package practice;
+
+class Siu {
+	void input()
+	{
+		System.out.println("Sylhet International University");
+	}
+}
+
+class Cse extends Siu{
+	void show()
+	{
+		System.out.println("Department of CSE");
+	}	
+}
+
+class Bba extends Siu{
+	void disp()
+	{
+		System.out.println("Department of BBA");
+	}
+}
+
+public class program3 {
+
+	public static void main(String[] args) {
+		Cse obj1= new Cse();
+		Bba obj2= new Bba();
+		
+		obj1.input(); obj1.show();
+		obj2.input(); obj2.disp();
+	}
+}
+*/
+
+package practice;
+
+class Car {
+	void input()
+	{
+		System.out.println("This is a car");
+	}
+}
+
+class Toyota  extends Car{
+	void show()
+	{
+		System.out.println("TOYOTA is old..");
+	}	
+}
+
+class Bmw extends Car{
+	void disp()
+	{
+		System.out.println("BMW is latest..");
+	}
+}
+
+public class program3 {
+
+	public static void main(String[] args) {
+		Toyota obj1= new Toyota();
+		Bmw obj2= new Bmw();
+		
+		obj1.input(); 
+		obj1.show();
+		obj2.disp();
+	}
+}
