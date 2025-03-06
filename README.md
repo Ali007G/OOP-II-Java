@@ -2,4 +2,4 @@
 
 loop, function, array, string, 
 
-inheritance, exception handling, thread...
+inheritance, exception handling, thread... (continue)
