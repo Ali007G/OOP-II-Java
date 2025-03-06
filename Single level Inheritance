@@ -1,0 +1,31 @@
+package practice;
+
+// Simple/ Single level Inheritance
+
+class Student {
+	int roll, marks;
+    String name;
+    
+    void input() //use protected & private
+    {
+    	System.out.println("Enter roll name & marks: ");
+    }
+}
+class ABC extends Student {
+	void disp()
+    {
+    	roll=11; name="mukit"; marks=90;
+    	System.out.println(roll+" "+name+" "+marks);
+    	roll=12; name="tayaf"; marks=91;
+        System.out.println(roll+" "+name+" "+marks);
+    }
+}
+public class program1 {
+	public static void main(String[] args) {
+		{
+	    	ABC obj= new ABC();
+	        obj.input();
+	        obj.disp();
+	    }
+	}
+}
