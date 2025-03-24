@@ -1,0 +1,21 @@
+package practice;
+//import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class copyFile {
+
+	public static void main(String[] args) throws IOException {
+		FileInputStream f = new FileInputStream("D:\\Java\\practice\\class\\demo.txt");
+		FileOutputStream r = new FileOutputStream("D:\\Java\\practice\\class\\demo_copy.txt");
+		
+		int i;
+		while((i=f.read())!=-1)	{
+			r.write((char)i);
+		}
+		System.out.println("Copied Data Succesfully");
+	}
+}
+
+
